@@ -6,23 +6,26 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-    name: 'Conversia AI- Generative Chat Bot ',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        name: 'Admin Dashboard',
+        description: `Developed features like charts, calendars, tables, Kanban Trello board, Todo apps, and Material tables. 
+                      Key libraries like Chart.js and Material-UI tables were used to enhance user interaction and data analysis within the dashboard. 
+                      Features such as data filtering, sorting, and drag-and-drop functionality within the Kanban board were integrated to enrich the user experience.`,
+        tools: ['React', 'Chart.js', 'Material-UI', 'Bootstrap'],
         role: 'FrontEnd Developer',
-        code: '',
+        code: 'Project Link',
         demo: '',
-        image: crefin,
+        image: '',  // Add image reference if available
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
+        name: 'Conversia-AI',
+        description: `Developed a Generative AI Chatbot with the integration of Gemini API. 
+                      Ensured adding typing effects, responsive design, and used styled components.`,
+        tools: ['React', 'Gemini API', 'Styled Components'],
+        role: 'FrontEnd Developer',
+        code: 'Project Link',
         demo: '',
-        image: travel,
+        image: '',  // Add image reference if available
     },
     {
         id: 3,
