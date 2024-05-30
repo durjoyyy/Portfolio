@@ -1,14 +1,14 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Developer @ DAIMLER TRUCKS',
-    company: "Daimler Trucks",
-    duration: "July 2022 - Present  | 1 year 10 months"
+    title: 'Software Developer',
+    company: "Daimler Trucks (Ex Mercedes Benz R&D India) ",
+    duration: "July 2022 - Present  | 1 year 11 months"
   },
   {
     id: 2,
     title: "Software Intern",
-    company: "Daimler Trucks",
+    company: "Daimler Trucks (Ex Mercedes Benz R&D India)",
     duration: "Feb 2022 - July 2022  | 6 months"
   },
   {
